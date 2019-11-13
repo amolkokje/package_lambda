@@ -23,6 +23,7 @@ deployment, update the lambda function package name using "aws s3 mv s3://<BUCKE
 ## Using Shell script
 
 DIR: /shell_script
+
 REF: https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html
 
 Command to use the shell script is: ./create_lambda_package.sh <FUNCTION_CODE_FILE> <BUCKET_NAME>
